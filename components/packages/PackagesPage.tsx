@@ -112,9 +112,11 @@ export function PackagesPage() {
                       viewport={{ once: true }}
                       transition={{ delay: i * 0.08 + 0.2 }}
                       className={`text-surface text-[10px] max-sm:text-[8px] font-black uppercase tracking-widest px-4 max-sm:px-2 py-1.5 rounded-full inline-flex items-center gap-1.5 ${
-                        t >= 3
-                          ? "bg-gradient-to-r from-brand-koa to-brand-ember"
-                          : "bg-brand-ember"
+                        pkg.highlight === "All Activities"
+                          ? "bg-gradient-to-r from-red-600 to-red-500 shadow-lg shadow-red-600/40"
+                          : t >= 3
+                            ? "bg-gradient-to-r from-brand-koa to-brand-ember"
+                            : "bg-brand-ember"
                       }`}
                     >
                       {t >= 3 && <Sparkles className="w-3 h-3 max-sm:w-2 max-sm:h-2" />}
