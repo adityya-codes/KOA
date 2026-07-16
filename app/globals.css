@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface: #FFFFFF;
+  --ink: #1A1A2E;
+  --ink-muted: #6B7280;
+  --brand-koa: #0F3D24;
+  --brand-koa-light: #1A6B3C;
+  --brand-koa-dark: #092617;
+  --brand-ember: #E87A2A;
+  --brand-ember-dark: #C9651F;
+  --brand-snow: #F8FAF9;
+  --brand-winterline: #4A90D9;
+  --border-subtle: #E5E7EB;
+}
+
+.bg-surface { background-color: var(--surface); }
+.bg-brand-snow { background-color: var(--brand-snow); }
+.bg-brand-koa { background-color: var(--brand-koa); }
+.bg-brand-koa-dark { background-color: var(--brand-koa-dark); }
+.bg-brand-ember { background-color: var(--brand-ember); }
+.bg-brand-ember-dark { background-color: var(--brand-ember-dark); }
+.bg-brand-koa\/10 { background-color: color-mix(in srgb, var(--brand-koa) 10%, transparent); }
+.bg-brand-koa\/20 { background-color: color-mix(in srgb, var(--brand-koa) 20%, transparent); }
+.bg-border-subtle\/50 { background-color: color-mix(in srgb, var(--border-subtle) 50%, transparent); }
+.bg-border-subtle\/30 { background-color: color-mix(in srgb, var(--border-subtle) 30%, transparent); }
+.bg-ink-muted\/30 { background-color: color-mix(in srgb, var(--ink-muted) 30%, transparent); }
+
+.text-surface { color: var(--surface); }
+.text-surface\/80 { color: color-mix(in srgb, var(--surface) 80%, transparent); }
+.text-surface\/90 { color: color-mix(in srgb, var(--surface) 90%, transparent); }
+.text-surface\/70 { color: color-mix(in srgb, var(--surface) 70%, transparent); }
+.text-surface\/60 { color: color-mix(in srgb, var(--surface) 60%, transparent); }
+.text-surface\/50 { color: color-mix(in srgb, var(--surface) 50%, transparent); }
+.text-surface\/40 { color: color-mix(in srgb, var(--surface) 40%, transparent); }
+.text-surface\/30 { color: color-mix(in srgb, var(--surface) 30%, transparent); }
+.text-surface\/20 { color: color-mix(in srgb, var(--surface) 20%, transparent); }
+.text-ink { color: var(--ink); }
+.text-ink-muted { color: var(--ink-muted); }
+.text-ink-muted\/60 { color: color-mix(in srgb, var(--ink-muted) 60%, transparent); }
+.text-ink-muted\/40 { color: color-mix(in srgb, var(--ink-muted) 40%, transparent); }
+.text-brand-koa { color: var(--brand-koa); }
+.text-brand-koa-dark { color: var(--brand-koa-dark); }
+.text-brand-ember { color: var(--brand-ember); }
+.text-brand-winterline { color: var(--brand-winterline); }
+.text-border-subtle { color: var(--border-subtle); }
+
+.border-brand-koa { border-color: var(--brand-koa); }
+.border-brand-koa\/20 { border-color: color-mix(in srgb, var(--brand-koa) 20%, transparent); }
+.border-t-brand-koa { border-top-color: var(--brand-koa); }
+.border-border-subtle { border-color: var(--border-subtle); }
+.border-surface\/10 { border-color: color-mix(in srgb, var(--surface) 10%, transparent); }
+
+.fill-brand-ember { fill: var(--brand-ember); }
+
+.hover\:bg-brand-koa:hover { background-color: var(--brand-koa); }
+.hover\:bg-brand-koa-dark:hover { background-color: var(--brand-koa-dark); }
+.hover\:bg-brand-ember-dark:hover { background-color: var(--brand-ember-dark); }
+.hover\:bg-border-subtle:hover { background-color: var(--border-subtle); }
+.hover\:bg-border-subtle\/60:hover { background-color: color-mix(in srgb, var(--border-subtle) 60%, transparent); }
+.hover\:bg-ink-muted\/50:hover { background-color: color-mix(in srgb, var(--ink-muted) 50%, transparent); }
+.hover\:text-ink:hover { color: var(--ink); }
+.hover\:text-surface:hover { color: var(--surface); }
+.hover\:text-brand-koa-light:hover { color: var(--brand-koa-light); }
+
+.focus\:border-brand-koa:focus { border-color: var(--brand-koa); }
+
+.selection\:bg-brand-koa\/20::selection { background-color: color-mix(in srgb, var(--brand-koa) 20%, transparent); }
+.selection\:text-brand-koa::selection { color: var(--brand-koa); }
+
+
+
+.from-brand-koa { --tw-gradient-from: var(--brand-koa); }
+.from-brand-koa\/80 { --tw-gradient-from: color-mix(in srgb, var(--brand-koa) 80%, transparent); }
+.from-brand-koa\/60 { --tw-gradient-from: color-mix(in srgb, var(--brand-koa) 60%, transparent); }
+.from-brand-koa-dark { --tw-gradient-from: var(--brand-koa-dark); }
+.from-brand-koa-dark\/60 { --tw-gradient-from: color-mix(in srgb, var(--brand-koa-dark) 60%, transparent); }
+.from-brand-ember { --tw-gradient-from: var(--brand-ember); }
+.via-brand-koa\/40 { --tw-gradient-via: color-mix(in srgb, var(--brand-koa) 40%, transparent); }
+.via-brand-winterline { --tw-gradient-via: var(--brand-winterline); }
+.via-brand-winterline\/20 { --tw-gradient-via: color-mix(in srgb, var(--brand-winterline) 20%, transparent); }
+.to-brand-koa { --tw-gradient-to: var(--brand-koa); }
+.to-brand-koa-dark { --tw-gradient-to: var(--brand-koa-dark); }
+.to-brand-ember { --tw-gradient-to: var(--brand-ember); }
+
+.bg-gradient-hero { background-image: linear-gradient(180deg, #0F3D24 0%, #1A6B3C 40%, #4A90D9 100%); }
+.bg-gradient-sky-dawn { background-image: linear-gradient(180deg, #F7E8D0 0%, #E8C4A0 30%, #4A90D9 60%, #FFFFFF 100%); }
+.bg-gradient-dusk { background-image: linear-gradient(180deg, #2C3E50 0%, #1A1A2E 40%, #4A90D9 70%, #F8FAF9 100%); }
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-inter);
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 640px) {
+  :root {
+    font-size: clamp(13px, 2.5vw + 5px, 16px);
+  }
+}
+
+@keyframes float-cloud {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(40px); }
+}
+
+@keyframes gentle-pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+@keyframes chevron-bounce {
+  0%, 100% { transform: translateY(0); opacity: 0.4; }
+  50% { transform: translateY(8px); opacity: 1; }
+}
+
+@keyframes winterline-glow {
+  0%, 100% { opacity: 0.5; transform: scaleX(0.95); }
+  50% { opacity: 1; transform: scaleX(1.05); }
+}
+
+@keyframes ember-float {
+  0% { transform: translateY(0) translateX(0) scale(1); opacity: 0.8; }
+  100% { transform: translateY(-120px) translateX(20px) scale(0); opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+*:focus-visible {
+  outline: 2px solid var(--brand-koa);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
