@@ -42,7 +42,7 @@ const jsonLd = {
     "Adventure park in Saur Kanatal, Tehri Garhwal offering Giant Swing, Sky Roller, Zip Line, Rope Courses, ATV rides, Valley Crossing, and more.",
   url: "https://kanataloutdooradventures.com",
   telephone: "+91-7500069047",
-  email: "info@kanataloutdoor.com",
+  email: "kanataloutdoor@gmail.com",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Village Saur Kanatal, Near by Winter Line Cafe",

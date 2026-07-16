@@ -18,7 +18,7 @@ const contactInfo = [
   { icon: Phone, text: "+91-7500069047" },
   { icon: Phone, text: "+91-8077097587" },
   { icon: Phone, text: "+91-9286002931" },
-  { icon: Mail, text: "info@kanataloutdoor.com" },
+  { icon: Mail, text: "kanataloutdoor@gmail.com" },
 ];
 
 export function Footer() {

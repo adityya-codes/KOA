@@ -8,7 +8,7 @@ export const BRAND = {
   website: "www.kanataloutdoor.com",
   instagram: "@kanatal_outdoor",
   instagramUrl: "https://instagram.com/kanatal_outdoor",
-  email: "info@kanataloutdoor.com",
+  email: "kanataloutdoor@gmail.com",
   whatsapp: "917500069047",
   domain: "https://kanataloutdooradventures.com",
   geo: { lat: 30.4083, lng: 78.4032 },
@@ -97,7 +97,7 @@ export const activities: ActivityData[] = [
     difficulty: "Easy",
     duration: "25 min",
     price: "₹700/person",
-    image: "/images/horizon-bridge.jpeg",
+    image: "/images/horizon-bridge.jpg",
     details: [
       "Suspended wooden-plank bridge at height",
       "Minimum age: 6 years",
@@ -113,7 +113,7 @@ export const activities: ActivityData[] = [
     difficulty: "Easy",
     duration: "20 min",
     price: "₹500/person",
-    image: "/images/net-climbing.jpeg",
+    image: "/images/sky-walk.jpg",
     details: [
       "Elevated walkway with handrails and safety line",
       "Minimum age: 6 years",
@@ -129,7 +129,7 @@ export const activities: ActivityData[] = [
     difficulty: "Easy",
     duration: "30 min",
     price: "₹500/person",
-    image: "/images/net-climbing.jpeg",
+    image: "/images/rope-course-1.jpg",
     details: [
       "Low-height obstacles for beginners",
       "Minimum age: 8 years",
@@ -145,7 +145,7 @@ export const activities: ActivityData[] = [
     difficulty: "Moderate",
     duration: "30 min",
     price: "₹600/person",
-    image: "/images/net-climbing.jpeg",
+    image: "/images/rope-course-2.jpg",
     details: [
       "Increased height and obstacle complexity",
       "Minimum age: 10 years",
@@ -161,7 +161,7 @@ export const activities: ActivityData[] = [
     difficulty: "Extreme",
     duration: "40 min",
     price: "₹800/person",
-    image: "/images/net-climbing.jpeg",
+    image: "/images/rope-course-3.jpg",
     details: [
       "Expert-level obstacles at maximum height",
       "Minimum age: 14 years",
@@ -225,7 +225,7 @@ export const activities: ActivityData[] = [
     difficulty: "Challenging",
     duration: "30 min",
     price: "₹500/person",
-    image: "/images/valley-crossing.jpeg",
+    image: "/images/valley-crossing.jpg",
     details: [
       "Rope pulley traverse across an 80-foot valley gap",
       "Minimum age: 12 years",

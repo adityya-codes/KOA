@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { OfferBadge } from "@/components/ui/OfferBadge";
+
 
 interface ActivityCardProps {
   title: string;
@@ -61,9 +61,7 @@ export function ActivityCard({
             {duration}
           </span>
         </div>
-        <div className="absolute top-4 right-4 z-20">
-          <OfferBadge variant="badge" />
-        </div>
+        {false && null}
       </div>
 
       {/* Content */}
@@ -72,11 +70,7 @@ export function ActivityCard({
           <h3 className="text-lg max-sm:text-sm font-black uppercase tracking-tight text-ink">{title}</h3>
           <span className="text-sm max-sm:text-[11px] font-black text-brand-koa whitespace-nowrap">{price}</span>
         </div>
-        {!price.toLowerCase().includes("included") && (
-          <p className="text-[10px] text-brand-ember font-bold mt-0.5">
-            Save 20% with pre-booking
-          </p>
-        )}
+
         <p className="text-xs max-sm:text-[11px] text-ink-muted leading-relaxed line-clamp-2">{description}</p>
         <Link
           href={`/activities/${slug}`}
